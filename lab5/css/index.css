@@ -1,0 +1,117 @@
+/* #labelInputFile {
+    width: 100%;
+    height: 150px;
+    border: 2px dashed #c8dadf;
+    margin-bottom: 0px !important;
+}
+#uploads {
+    display: none;
+}
+
+.input-container {
+    padding: 10px;
+    background-color: #629094;
+}
+
+.input-content {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.input-over-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    max-width: 90%;
+}
+
+.dropzone {
+}
+
+.dropzone.is-dragover {
+  background-color: #2b5e63;
+}
+
+.dragover {
+	background-color: red;
+}
+
+@media (max-width: 767px) {
+    .header {
+        position: sticky;
+        width: 100%;
+    }
+    .container2 {
+        margin-left: 0px !important;
+        min-width: 400px;
+    }
+    .left-sidebar {
+        display: none;
+    }
+    .footer {
+        left: 0px !important;
+    }
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+}
+
+.left-sidebar {
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    padding-top: 55px   ;
+    background: #fff;
+    -webkit-box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+} */
+
+.container2 {
+    margin-left: 240px;
+}
+
+.header .top-navbar .navbar-header {
+    line-height: 45px;
+    text-align: center;
+    background: #fff;
+    width: 240px;
+}
+
+.red {
+    background-color: #FF001A;
+}
+
+.green {
+    background-color: #10BA51;
+}
+
+.blue {
+    background-color: #0015FF;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+/* .file-drop-zone {
+    border: 1px dashed #aaa;
+    min-height: 260px;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 12px 15px 12px 12px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

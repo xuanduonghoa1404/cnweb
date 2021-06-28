@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+   <link href="../../lib/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="../../lib/fontawesome/css/all.min.css" rel="stylesheet" />
+   <link href="./ex3.css" rel="stylesheet" />
+   <script src="../../lib/js/jquery-3.4.1.js"></script>
+   <script src="../../lib/js/popper.min.js"></script>
+   <script src="../../lib/js/bootstrap.min.js"></script>
+   <script src="./ex3.js"></script>
+</head>
+<body>
+<div class="container">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+        <div class="col-12 col-md-6 addFavoriteBlog">
+            <h3>
+                Add Favorite Blog
+            </h3>
+            <div class="form-group">
+
+                <input id="inputFavoriteBlog" type="text" class="form-control" id="usr" placeholder="Favorite blog">
+            </div>
+            <button type="button" id="btnAddFavoriteBlog" class="btn btn-info">Add</button>
+        </div>
+        <div class="col-12 col-md-6 listFavoriteBlog">
+            <h3>
+                List Favorite Blog
+            </h3>
+            <button id="btnResetFavoriteBlog" type="button" class="btn btn-secondary">Reset</button>
+            <table class="table">
+                <tbody id="listFavoriteBlog">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

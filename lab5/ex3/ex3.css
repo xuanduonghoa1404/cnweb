@@ -1,0 +1,14 @@
+.addFavoriteBlog {
+    margin-top: 10px;
+
+    padding-top: 10px;
+}
+
+.listFavoriteBlog {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#btnResetFavoriteBlog {
+    margin: 10px 0px;
+}

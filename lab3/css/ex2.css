@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+    .header {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}

@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #e9ebee;
+    height: 100%;
+    width: 100%;
+}
+textarea, .form-control {
+    border: 0;
+    border-radius: 0;
+    resize: none;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #e9ebee;
+}
+
+.feed-content {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.feed-content .recentcontainer {
+    border-radius: 2px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.feed-content .recentcontainer .newpostheader,
+.feed-content .recentcontainer .newpostfooter {
+    padding: 4px 5px;
+    background: #f6f7f9;
+}
+.feed-content .recentcontainer .newpostheader li,
+.feed-content .recentcontainer .newpostfooter li {
+    display: inline-block;
+    width: 33.33333333333333333333%;
+    text-align: center;
+}
+.feed-content .recentcontainer .newpostheader li:first-child,
+.feed-content .recentcontainer .newpostfooter li:first-child {
+    float: left;
+}
+.feed-content .recentcontainer .newpostheader li:last-child,
+.feed-content .recentcontainer .newpostfooter li:last-child {
+    float: right;
+}
+.feed-content .recentcontainer .newpostheader h4,
+.feed-content .recentcontainer .newpostfooter h4 {
+    font-size: 14px;
+    margin: 10px 5px;
+    color: #666;
+}
+.feed-content .recentcontainer .newpostheader a:first-child,
+.feed-content .recentcontainer .newpostfooter a:first-child {
+    margin-right: 5px;
+}
+.feed-content .recentcontainer .newpostheader a,
+.feed-content .recentcontainer .newpostfooter a {
+    font-size: 14px;
+}
+.feed-content .recentcontainer .newpostheader a img,
+.feed-content .recentcontainer .newpostfooter a img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 0 5px;
+}
+.feed-content .recentcontainer .newpostheader a .name,
+.feed-content .recentcontainer .newpostfooter a .name {
+    position: relative;
+    top: -6px;
+}
+.feed-content .recentcontainer .newpostheader a .fa,
+.feed-content .recentcontainer .newpostfooter a .fa {
+    display: inline-block;
+    margin: 5px;
+}
+.feed-content .recentcontainer .newpostheader > span,
+.feed-content .recentcontainer .newpostfooter > span {
+    position: relative;
+    top: -6px;
+    left: -4px;
+    font-size: 14px;
+}
+.feed-content .recentcontainer .newpostheader p,
+.feed-content .recentcontainer .newpostfooter p {
+    position: relative;
+    top: -22px;
+    left: 55px;
+    font-size: 12px;
+}
+.feed-content .recentcontainer .newpostheader p a,
+.feed-content .recentcontainer .newpostfooter p a {
+    font-size: 12px;
+    color: #4b4f56;
+    margin-right: 5px;
+}
+.feed-content .recentcontainer .newpostheader .rightsideofpost,
+.feed-content .recentcontainer .newpostfooter .rightsideofpost {
+    position: relative;
+    top: -73px;
+    float: right;
+}
+.feed-content .recentcontainer .newpostheader .rightsideofpost .personpostmenu,
+.feed-content .recentcontainer .newpostfooter .rightsideofpost .personpostmenu {
+    color: #4b4f56;
+}
+.feed-content .recentcontainer .newpostheader li a,
+.feed-content .recentcontainer .newpostfooter li a {
+    font-size: 14px;
+    color: #4b4f56;
+    margin-right: 5px;
+}
+.feed-content .recentcontainer .newpostheader li a .fa,
+.feed-content .recentcontainer .newpostfooter li a .fa {
+    display: inline-block;
+    margin: 5px;
+}
+.feed-content .recentcontainer .community-counter {
+    padding: 4px 5px;
+    background: #f6f7f9;
+}
+.feed-content .recentcontainer .community-counter li a {
+    font-size: 14px;
+    color: #4b4f56;
+    margin-right: 5px;
+}
+.feed-content .recentcontainer .community-counter li a .fa {
+    display: inline-block;
+    margin: 5px;
+}
+.feed-content .recentcontainer .newpost textarea,
+.feed-content .recentcontainer .newpost .postcontent {
+    display: inherit;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: #f6f7f9;
+}
+.feed-content .recentcontainer .newpost .postcontent {
+    position: relative;
+    margin-top: -40px;
+    padding-bottom: 40px;
+    white-space: pre-line;
+}
+.feed-content .recentcontainer .newpostfooter {
+    margin-top: 1px;
+}
+.feed-content .recentcontainer .commentpost {
+    display: inherit;
+    background: #f6f7f9;
+    margin-top: -1px;
+}
+.feed-content .recentcontainer .commentpost img {
+    margin: 10px;
+    height: 40px;
+}
+.feed-content .recentcontainer .commentpost .input-group-btn {
+    display: inline-block;
+    background: #fff;
+}
+.feed-content .recentcontainer .commentpost .input-group-btn a {
+    margin-top: 10px;
+}
+.feed-content .recentcontainer:nth-child(1) .newpostfooter li:first-child .fa {
+    color: #96b756;
+}
+.feed-content .recentcontainer:nth-child(1) .newpostfooter li:nth-child(2) .fa {
+    color: #f1c04e;
+}
+.feed-content .recentcontainer:nth-child(1) .newpostfooter li:last-child a:last-child {
+    font-size: 20px;
+}
+@media all and (max-width: 700px) {
+    .feed-content {
+        width: 100%;
+    }
+}
+@media all and (max-width: 1000px) {
+    .feed-content {
+        width: 70%;
+    }
+}
+@media all and (min-width: 1260px) {
+    .feed-content {
+        width: 40%;
+    }
+}
